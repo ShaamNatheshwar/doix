@@ -11,9 +11,9 @@ var image1 = document.querySelectorAll("img")[1];
 image1.setAttribute("src",imgSource1);
 
 if(randomNumber1 > randomNumber2){
-    document.querySelector('h1').innerHTML = "Player 1 has won🎲";
+    document.querySelector('h1').innerHTML = "Player 1 has won saathu🎲";
 }else if(randomNumber1 < randomNumber2){
-    document.querySelector('h1').innerHTML = "Player 2 has won 🎲";
+    document.querySelector('h1').innerHTML = "Player 2 has won saathu🎲";
 }else{
     document.querySelector('h1').innerHTML = "match is drawn ";
 }
